@@ -25,3 +25,25 @@ Ensure that you have the following installed on your machine:
 ```bash
 git clone https://github.com/your-username/sneaker-ecommerce-api.git
 cd sneaker-ecommerce-api
+
+
+# Install dependencies
+npm install
+```
+
+### Step 2: Configure the Environment
+
+Create a `.env` file in the root directory of the project and add the following environment variables:
+
+```bash
+# PostgreSQL connection string
+DATABASE_URL=postgres://username:password@localhost:5432/sneaker_ecommerce
+
+# JWT secret key
+JWT_SECRET=your-secret-key
+
+# Stripe API key
+STRIPE_API_KEY=your-stripe-api-key
+```
+
+Replace the values with your own credentials and configurations.
