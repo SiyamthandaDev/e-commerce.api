@@ -10,7 +10,7 @@ This is a RESTful API for a sneaker e-commerce platform, built using [NestJS](ht
 - **Stock Management**: Keep track of available stock and update inventory as orders are placed.
 - **Payment Gateway Integration**: Handle payments through an integrated payment system.
 
-## Installation
+## Installation..
 
 ### Prerequisites
 
